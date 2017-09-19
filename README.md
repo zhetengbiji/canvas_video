@@ -1,10 +1,10 @@
-##canvas_video.js
+## canvas_video.js
 
-###一个用canvas来播放视频的小插件，主要应用于移动端微信
+### 一个用canvas来播放视频的小插件，主要应用于移动端微信
 
 ----
 
-##用途
+## 用途
 
 video才是播放视频的最佳标签，那canvas播放video的意义何在呢？
 能直接使用视频的地方当然要直接使用视频，但在一些特殊场合，尤其是人工制造了视频播放阻碍的应用里（比如安卓微信），非白名单里的视频播放会强制全屏，且播放完毕会显示广告。
@@ -12,7 +12,7 @@ video才是播放视频的最佳标签，那canvas播放video的意义何在呢�
 没错，这个canvas_video.js并不是播放video，而是把video拆解为帧动画和音频来同时播放。
 然而怎样拆解，本插件并不负责，你也可以尝试使用AE。
 
-##用法
+## 用法
 
 ```js
 var video = new CanvasVideo(document.getElementById("canvas"), {
